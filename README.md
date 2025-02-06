@@ -3,11 +3,11 @@ https://github.com/gmaxus/TP-Link-Archer-AX1500-telnet-root/blob/main/README-eng
 
 # Получение root прав на роутере TP-Link Archer V.1 AX10 (AX1500)
 
-<img src="https://raw.github.com/gmaxus/TP-Link-Archer-AX1500-telnet-root/main/img/router.jpeg" width=70% height=70%>
+<img src="https://raw.github.com/gmaxus/TP-Link-Archer-AX1500-telnet-root/main/img/router.jpg">
 
 ## Даунгрейд прошивки
 
-<img src="https://raw.github.com/gmaxus/TP-Link-Archer-AX1500-telnet-root/main/img/firmware.jpeg" width=70% height=70%>
+<img src="https://raw.github.com/gmaxus/TP-Link-Archer-AX1500-telnet-root/main/img/firmware.jpg">
 
 Надо даунгрейднуть прошивку до версии 1.3.1, сейчас актуальная версия 1.3.9.
 Это надо сделать последовательно, сразу прошиться на 1.3.1 не получится. То есть с 1.3.9 надо перешиться на 1.3.8, потом на 1.3.4 и только потом на 1.3.1
@@ -33,6 +33,7 @@ pip install requests pycryptodome
 ```text
 python3 tplink.py -t 192.168.0.1 -p password -r ./ArcherAX1500v120220401131n
 ```
+<img src="https://raw.github.com/gmaxus/TP-Link-Archer-AX1500-telnet-root/main/img/python.jpg">
 
 Подождите пока роутер перезагрузится.
 После перезагрузки нажмите кнопку WPS которая располагается на задней панели роутера.
@@ -48,7 +49,7 @@ python3 tplink.py -t 192.168.0.1 -p password -r ./ArcherAX1500v120220401131n
 ```text
 telnet 192.168.0.1
 ```
-<img src="https://raw.github.com/gmaxus/TP-Link-Archer-AX1500-telnet-root/main/img/telnet.jpeg" width=70% height=70%>
+<img src="https://raw.github.com/gmaxus/TP-Link-Archer-AX1500-telnet-root/main/img/telnet.jpg">
 
 Или можете вруную отредактировать конфиг располагающийся в папке ./root/ArcherAX1500v120220401131n/ori-backup-user-config.xml.  
 И загрузить на роутер следующей коммандой:
