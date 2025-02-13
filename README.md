@@ -1,9 +1,6 @@
 # English version
 https://github.com/gmaxus/TP-Link-Archer-AX1500-telnet-root/blob/main/README-eng.md
 
-## Обход блокировок с помощью данного роутера
-https://github.com/gmaxus/TP-Link-Archer-AX1500-youtubeUnblock
-
 ## Получение root прав на роутере TP-Link Archer V.1 AX10 (AX1500)
 
 <img src="https://raw.github.com/gmaxus/TP-Link-Archer-AX1500-telnet-root/main/img/router.jpg">
@@ -62,3 +59,6 @@ python3 tplink.py -t 192.168.0.1 -p password -b
 ```
 # LINKS
 https://github.com/aaronsvk/CVE-2022-30075
+
+## Обход блокировок с помощью данного роутера
+https://github.com/gmaxus/TP-Link-Archer-AX1500-youtubeUnblock
