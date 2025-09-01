@@ -60,5 +60,5 @@ python3 tplink.py -t 192.168.0.1 -p password -b
 # LINKS
 https://github.com/aaronsvk/CVE-2022-30075
 
-## Обход блокировок с помощью данного роутера
+## Как устнановить youtubeUnblock на данный роутер
 https://github.com/gmaxus/TP-Link-Archer-AX1500-youtubeUnblock
